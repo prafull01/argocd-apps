@@ -8,6 +8,7 @@ spec:
   source:
     repoURL: https://github.com/prafull01/argocd-apps.git
     targetRevision: main
+    path: manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: default
